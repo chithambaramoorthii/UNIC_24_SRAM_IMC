@@ -1,0 +1,81 @@
+2024-09-24 18:06:52 - [INFO] - {{Project Git Info}} Repository: https:/repositories.efabless.com/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC.git | Branch: main | Commit: 4cc172bb76a2b86fd0e85a3d712ff33b74923732
+2024-09-24 18:06:52 - [INFO] - {{EXTRACTING FILES}} Extracting compressed files in: UNIC-CASS-24-SRAM-IMC.git
+2024-09-24 18:06:52 - [INFO] - {{Project Type Info}} analog
+2024-09-24 18:06:52 - [INFO] - {{Project GDS Info}} user_analog_project_wrapper: 26d787079362eb48ba3ead1d8c0b23c5187136f7
+2024-09-24 18:06:52 - [INFO] - {{Tools Info}} KLayout: v0.29.2 | Magic: v8.3.471
+2024-09-24 18:06:52 - [INFO] - {{PDKs Info}} SKY130A: None | Open PDKs: 0fe599b2afb6708d281543108caf8310912f54af
+2024-09-24 18:06:52 - [INFO] - {{START}} Precheck Started, the full log 'precheck.log' will be located in '/mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/logs'
+2024-09-24 18:06:52 - [INFO] - {{PRECHECK SEQUENCE}} Precheck will run the following checks: [Makefile, Top Cell Check, Consistency, GPIO-Defines, XOR, Magic DRC, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density, Klayout Pin Label Purposes Overlapping Drawing, Klayout ZeroArea, Spike Check, Illegal Cellname Check, OEB]
+2024-09-24 18:06:52 - [INFO] - {{STEP UPDATE}} Executing Check 1 of 15: Makefile
+2024-09-24 18:06:52 - [INFO] - {{MAKEFILE CHECK PASSED}} Makefile valid.
+2024-09-24 18:06:52 - [INFO] - {{STEP UPDATE}} Executing Check 2 of 15: Top Cell Check
+2024-09-24 18:06:52 - [INFO] - {{Top Cell Check CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has exactly 1 topcell.
+2024-09-24 18:06:52 - [INFO] - {{STEP UPDATE}} Executing Check 3 of 15: Consistency
+2024-09-24 18:06:57 - [INFO] - PORTS CHECK PASSED: Netlist user_analog_project_wrapper ports match the golden wrapper ports
+2024-09-24 18:06:57 - [INFO] - COMPLEXITY CHECK PASSED: Netlist user_analog_project_wrapper contains at least 1 instances (11 instances). 
+2024-09-24 18:06:57 - [INFO] - MODELING CHECK PASSED: Netlist user_analog_project_wrapper is structural.
+2024-09-24 18:06:57 - [INFO] - LAYOUT CHECK PASSED: The GDS layout for user_analog_project_wrapper matches the provided structural netlist.
+2024-09-24 18:06:57 - [INFO] - {{NETLIST CONSISTENCY CHECK PASSED}} user_analog_project_wrapper netlist passed all consistency checks.
+2024-09-24 18:06:58 - [INFO] - {{CONSISTENCY CHECK PASSED}} The user netlist and the top netlist are valid.
+2024-09-24 18:06:58 - [INFO] - {{STEP UPDATE}} Executing Check 4 of 15: GPIO-Defines
+2024-09-24 18:06:58 - [INFO] - GPIO-DEFINES: Checking verilog/rtl/user_defines.v, parsing files: ['/opt/checks/gpio_defines_check/verilog_assets/gpio_modes_base.v', 'UNIC-CASS-24-SRAM-IMC.git/verilog/rtl/user_defines.v', '/opt/checks/gpio_defines_check/verilog_assets/gpio_modes_observe.v']
+2024-09-24 18:06:59 - [INFO] - GPIO-DEFINES report path: /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/outputs/reports/gpio_defines.report
+2024-09-24 18:06:59 - [INFO] - {{GPIO-DEFINES CHECK PASSED}} The user verilog/rtl/user_defines.v is valid.
+2024-09-24 18:06:59 - [INFO] - {{STEP UPDATE}} Executing Check 5 of 15: XOR
+2024-09-24 18:07:03 - [INFO] - {{XOR CHECK UPDATE}} Total XOR differences: 0, for more details view /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/outputs/user_analog_project_wrapper.xor.gds
+2024-09-24 18:07:03 - [INFO] - {{XOR CHECK PASSED}} The GDS file has no XOR violations.
+2024-09-24 18:07:03 - [INFO] - {{STEP UPDATE}} Executing Check 6 of 15: Magic DRC
+2024-09-24 18:07:05 - [INFO] - 0 DRC violations
+2024-09-24 18:07:05 - [INFO] - {{MAGIC DRC CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2024-09-24 18:07:05 - [INFO] - {{STEP UPDATE}} Executing Check 7 of 15: Klayout FEOL
+2024-09-24 18:07:05 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-09-24 18:07:05 - [INFO] - run: klayout -b -r /opt/checks/tech-files/sky130A_mr.drc -rd input=UNIC-CASS-24-SRAM-IMC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/outputs/reports/klayout_feol_check.xml -rd thr=8 -rd feol=true >& /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/logs/klayout_feol_check.log
+2024-09-24 18:07:07 - [INFO] - No DRC Violations found
+2024-09-24 18:07:07 - [INFO] - {{Klayout FEOL CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2024-09-24 18:07:07 - [INFO] - {{STEP UPDATE}} Executing Check 8 of 15: Klayout BEOL
+2024-09-24 18:07:07 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-09-24 18:07:07 - [INFO] - run: klayout -b -r /opt/checks/tech-files/sky130A_mr.drc -rd input=UNIC-CASS-24-SRAM-IMC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/outputs/reports/klayout_beol_check.xml -rd thr=8 -rd beol=true >& /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/logs/klayout_beol_check.log
+2024-09-24 18:07:13 - [INFO] - No DRC Violations found
+2024-09-24 18:07:13 - [INFO] - {{Klayout BEOL CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2024-09-24 18:07:13 - [INFO] - {{STEP UPDATE}} Executing Check 9 of 15: Klayout Offgrid
+2024-09-24 18:07:13 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-09-24 18:07:13 - [INFO] - run: klayout -b -r /opt/checks/tech-files/sky130A_mr.drc -rd input=UNIC-CASS-24-SRAM-IMC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/outputs/reports/klayout_offgrid_check.xml -rd thr=8 -rd offgrid=true >& /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/logs/klayout_offgrid_check.log
+2024-09-24 18:07:15 - [INFO] - No DRC Violations found
+2024-09-24 18:07:15 - [INFO] - {{Klayout Offgrid CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2024-09-24 18:07:15 - [INFO] - {{STEP UPDATE}} Executing Check 10 of 15: Klayout Metal Minimum Clear Area Density
+2024-09-24 18:07:15 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-09-24 18:07:15 - [INFO] - run: klayout -b -r /opt/checks/drc_checks/klayout/met_min_ca_density.lydrc -rd input=UNIC-CASS-24-SRAM-IMC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/outputs/reports/klayout_met_min_ca_density_check.xml -rd thr=8 >& /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/logs/klayout_met_min_ca_density_check.log
+2024-09-24 18:07:17 - [INFO] - No DRC Violations found
+2024-09-24 18:07:17 - [INFO] - {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2024-09-24 18:07:17 - [INFO] - {{STEP UPDATE}} Executing Check 11 of 15: Klayout Pin Label Purposes Overlapping Drawing
+2024-09-24 18:07:17 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-09-24 18:07:17 - [INFO] - run: klayout -b -r /opt/checks/drc_checks/klayout/pin_label_purposes_overlapping_drawing.rb.drc -rd input=UNIC-CASS-24-SRAM-IMC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml -rd thr=8 -rd top_cell_name=user_analog_project_wrapper >& /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/logs/klayout_pin_label_purposes_overlapping_drawing_check.log
+2024-09-24 18:07:19 - [INFO] - No DRC Violations found
+2024-09-24 18:07:19 - [INFO] - {{Klayout Pin Label Purposes Overlapping Drawing CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2024-09-24 18:07:19 - [INFO] - {{STEP UPDATE}} Executing Check 12 of 15: Klayout ZeroArea
+2024-09-24 18:07:19 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-09-24 18:07:19 - [INFO] - run: klayout -b -r /opt/checks/drc_checks/klayout/zeroarea.rb.drc -rd input=UNIC-CASS-24-SRAM-IMC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/outputs/reports/klayout_zeroarea_check.xml -rd thr=8 -rd cleaned_output=/mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/outputs/user_analog_project_wrapper_no_zero_areas.gds >& /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/logs/klayout_zeroarea_check.log
+2024-09-24 18:07:21 - [INFO] - No DRC Violations found
+2024-09-24 18:07:21 - [INFO] - {{Klayout ZeroArea CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2024-09-24 18:07:21 - [INFO] - {{STEP UPDATE}} Executing Check 13 of 15: Spike Check
+2024-09-24 18:07:21 - [INFO] - run: bash /opt/checks/spike_check/gdsArea0 -V -m /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/outputs/reports/spike_check.xml UNIC-CASS-24-SRAM-IMC.git/gds/user_analog_project_wrapper.gds >& /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/logs/spike_check.log
+2024-09-24 18:07:23 - [INFO] - No Spikes found
+2024-09-24 18:07:23 - [INFO] - {{Spike Check CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no spike errors.
+2024-09-24 18:07:23 - [INFO] - {{STEP UPDATE}} Executing Check 14 of 15: Illegal Cellname Check
+2024-09-24 18:07:23 - [INFO] - {{Illegal Cellname Check CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no Illegal Cellnames errors.
+2024-09-24 18:07:23 - [INFO] - {{STEP UPDATE}} Executing Check 15 of 15: OEB
+2024-09-24 18:07:23 - [INFO] - Loading LVS environment from UNIC-CASS-24-SRAM-IMC.git/lvs/user_analog_project_wrapper/lvs_config.json
+2024-09-24 18:07:23 - [INFO] - Loading LVS environment from /opt/checks/be_checks//tech/sky130A/lvs_config.base.json
+2024-09-24 18:07:23 - [INFO] - EXTRACT_FLATGLOB : *sky130_fd_pr__*[A-Z]* 
+2024-09-24 18:07:23 - [INFO] - EXTRACT_ABSTRACT : *__fill_* *__fakediode_* *__tapvpwrvgnd_* 
+2024-09-24 18:07:23 - [INFO] - LVS_FLATTEN : 
+2024-09-24 18:07:23 - [INFO] - LVS_NOFLATTEN : 
+2024-09-24 18:07:23 - [INFO] - LVS_IGNORE : 
+2024-09-24 18:07:23 - [INFO] - LVS_SPICE_FILES : /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hvl/spice/*.spice 
+2024-09-24 18:07:23 - [INFO] - LVS_VERILOG_FILES : 
+2024-09-24 18:07:23 - [INFO] - LAYOUT_FILE : UNIC-CASS-24-SRAM-IMC.git/gds/user_analog_project_wrapper.gds
+2024-09-24 18:07:23 - [INFO] - run: run_oeb_check
+2024-09-24 18:07:23 - [INFO] - OEB output directory: /mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada
+2024-09-24 18:07:31 - [INFO] - {{OEB CHECK PASSED}} The design, user_analog_project_wrapper, has no OEB violations.
+2024-09-24 18:07:31 - [INFO] - {{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/mnt/users_data/jobs/chithambaramoorthii/UNIC-CASS-24-SRAM-IMC/204abf97-28c3-4b0a-8ac9-34882343aada/logs'
+2024-09-24 18:07:31 - [INFO] - {{SUCCESS}} All Checks Passed !!!
